@@ -1,0 +1,27 @@
+﻿^ContentPage 
+{
+    background-color:azure;
+}
+
+label {
+    color: red;
+    text-align: center;
+}
+
+
+.header {
+    font-size:large;
+
+    
+}
+
+.middle {
+    font-size:medium;
+}
+
+.bottom {
+    font-size:small;
+}
+
+
+

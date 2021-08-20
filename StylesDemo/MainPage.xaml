@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="StylesDemo.MainPage">
+
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection>
+                <ViewCell x:Name="vcNoStyle" Tapped="vcNoStyle_Tapped">
+                    <Label Text="No Style"></Label>
+                </ViewCell>
+                <ViewCell x:Name="vcElement" Tapped="vcElement_Tapped">
+                    <Label Text="Element Level Style"></Label>
+                </ViewCell>
+                <ViewCell x:Name="vcPage" Tapped="vcPage_Tapped">
+                    <Label Text="Page Level Style"></Label>
+                </ViewCell>
+                <ViewCell x:Name="vcAppLevel" Tapped="vcAppLevel_Tapped">
+                    <Label Text="App Level Style"></Label>
+                </ViewCell>
+                <ViewCell x:Name="vcDynamic" Tapped="vcDynamic_Tapped">
+                    <Label Text="Dynamic Styles"></Label>
+                </ViewCell>
+                <ViewCell x:Name="vcImplicit" Tapped="vcImplicit_Tapped">
+                    <Label Text="Implicit Styles"></Label>
+                </ViewCell>
+                <ViewCell x:Name="vcCSS" Tapped="vcCSS_Tapped">
+                    <Label Text="CSS Styles"></Label>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>
